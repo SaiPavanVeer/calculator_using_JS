@@ -1,0 +1,37 @@
+# calculator_using_JS
+Calculator 
+
+In this, I going to create a calculator using javascript. 
+First, create a folder on the desktop and open this folder in the vs code and create an index.html, style.css, and app.js.
+Now open the index.html and link the style.css and app.js and now create a div classname calculator-grid and in it another div classname output and in it another div classname previous-operand.
+after this div create another div class name current-operand.
+Now I will implement all the buttons in a calculator.
+For ac and = I will add the class names span-two so I will style those buttons separately.  
+Now I style these html components. In style.css
+First i will add the styles to the whole html page box-sizing,font-family and font-weight.
+In this I will add the styles to the body is padding, margin, background color.  
+In this i will style the calculator gird. Add display grid and it properties and and we apply grid columns and rows to keep it in a column.
+In this i will style the calculator grid buttons i will add the cursor pointer, increase the size of the font and add some border and background color.
+And i add hover it so when it hover on the buttons it will change the background color. 
+In this i will style the ac and equal button i will add grid column to it. 
+This is the output box i will add back ground, grid column , display flex and it properties. 
+Wordwrap and word-break then the digits are in the more and it should break and goes to another line so it is used. 
+In this the precious operand and current operand means the present number which are typed is called the current operand and precious operand
+means the function which is add to the current operand and perciuse operand is called the precious operand
+in this i will add the color to the both operand and increase the font size. 
+Now I will add the functionalities to these in the app.js. In this I will import the all the class in Javascript.
+In this I will add class to js so i will store the all the calculatated number in the calculator.
+And this is the class of calculator.
+In this I will add the click function to the number button. So if you click  on the button it will display.
+In this I the same function is added to the opertionbuttons.
+In this same function to the equal button.
+In this i added the same function. 
+In this i added the same function. 
+For these all functions i will add  in the calculator class. If we press the ac button it should clear the all the number so i mentioned it in tbhe calculator class.
+I add a delete function so if i click on the delete button it will remove the number in the current operand. 
+In this i add the number to current operand so it will add the number to it and
+I used another statement to it due to as the numbers are add the same way the dots are also adding so to stop it i used it.
+In this i will add the operators so that current operand and previous operand so that will be the separate the operands.
+In this I add the operations between the current and previous operaand by using the switch case methods. 
+In this i will push the number in the currentoperand and previousoperand.
+In this i will import the string and integerdigits and decimaldigits i used if and else statement to display the numbers.
